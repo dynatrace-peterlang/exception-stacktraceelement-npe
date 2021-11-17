@@ -37,7 +37,7 @@ public class App {
             System.out.println("Everything worked. Expected exception for IBM Semeru Java 11 not thrown");
         } catch (NullPointerException e) {
             System.out.println("Unexpected NPE thrown in StackTraceElement.hashCode");
-            e.printStackTrace();
+            e.printStackTrace(System.out);
         }
     }
 }
