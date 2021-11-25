@@ -3,6 +3,8 @@
 IBM Semeru Runtime 11.0.13 throws an unexpected NullPointerException 
 if calling `StackTraceElement.hashCode`. 
 
+see https://github.com/eclipse-openj9/openj9/issues/13941
+
 Simply run this demo app with `gradlew run` using a IBM Semeru Runtime 11.0.13.
 
 
